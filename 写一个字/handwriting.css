@@ -1,0 +1,60 @@
+#canvas{
+    display: block;
+    margin: 0 auto;
+}
+#controller{
+    margin: 0 auto;
+}
+.clr_btn{
+    float: right;
+    margin: 10px 0 0 10px;
+    border: 2px solid #aaaaaa;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px 5px;
+    background-color: rgba(51,51,51,0.7);
+    font-weight: bold;
+    font-family: Microsoft YaHei UI;
+}
+.clr_btn:hover{
+    background-color: rgba(51,51,51,1);
+    color: #cccccc;
+}
+.clearfix{
+    clear: both;
+}
+.color_btn{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+    border: 5px solid white;
+}
+.color_btn:hover{
+    border: 5px solid violet;
+}
+.color_btn_selected{
+    border: 5px solid blueviolet;
+}
+#black_btn{
+    background-color: black;
+}
+#blue_btn{
+    background-color: blue;
+}
+#orange_btn{
+    background-color: orange;
+}
+#red_btn{
+    background-color: red;
+}
+#green_btn{
+    background-color: green;
+}
+#yellow_btn{
+    background-color: yellow;
+}
